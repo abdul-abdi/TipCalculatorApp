@@ -1,0 +1,8 @@
+﻿@model TipCalculatorApp.Models.TipCalculator
+
+@if (!ViewData.ModelState.IsValid)
+{
+    <div asp-validation-summary="All"></div>
+}
+
+@Html.DisplayForModel()

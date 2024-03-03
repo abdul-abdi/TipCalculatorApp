@@ -1,0 +1,10 @@
+﻿@model TipCalculatorApp.Models.TipCalculator
+
+<form asp-controller="Home" asp-action="Calculate" method="post">
+
+    <label>Meal Cost:</label>
+    <input asp-for="MealCost" />
+
+    <button type="submit">Calculate</button>
+
+</form>
